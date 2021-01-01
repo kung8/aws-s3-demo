@@ -165,6 +165,37 @@ Once your account is set up, go to https://console.aws.amazon.com and log in.
     ```
     </details>
 
+    OR 
+
+    <details>
+    <summary><code>CORS Configuration (Array Format)</code></summary>
+
+    ```
+
+    [
+        {
+            "AllowedHeaders": [
+                "*"
+            ],
+            "AllowedMethods": [
+                "GET",
+                "PUT",
+                "POST",
+                "HEAD",
+                "DELETE"
+            ],
+            "AllowedOrigins": [
+                "*"
+            ],
+            "ExposeHeaders": [],
+            "MaxAgeSeconds": 3000
+        }
+    ]
+
+    ```
+    </details>
+    
+
 
 1. Once you are finished, click 'Save'
 
